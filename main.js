@@ -7,7 +7,7 @@ const renderer = new THREE.WebGLRenderer()
 renderer.shadowMap.enabled = true
 renderer.shadowMap.type = THREE.PCFSoftShadowMap
 renderer.setSize( window.innerWidth, window.innerHeight );
-document.body.appendChild( renderer.domElement )
+document.getElementById('container').appendChild( renderer.domElement )
 
 const light = new THREE.DirectionalLight( 0xffffff, 2)
 light.position.set(5, 10, 1)

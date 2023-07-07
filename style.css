@@ -95,3 +95,15 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+.container {
+    position: relative;
+}
+
+.container__text {
+    color-scheme: light dark;
+    position: fixed;
+    top: 25rem;
+    z-index: 5;
+}
